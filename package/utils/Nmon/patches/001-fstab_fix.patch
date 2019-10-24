@@ -1,0 +1,13 @@
+Index: Nmon/lmon16j.c
+===================================================================
+--- Nmon.orig/lmon16j.c
++++ Nmon/lmon16j.c
+@@ -583,7 +583,7 @@ struct procsinfo {
+ int isroot = 0;
+ 
+ #include <mntent.h>
+-#include <fstab.h>
++/* #include <fstab.h> */
+ #include <sys/stat.h>
+ #include <sys/statfs.h>
+ #include <net/if.h>
